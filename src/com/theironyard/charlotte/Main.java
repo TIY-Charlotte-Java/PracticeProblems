@@ -2,6 +2,8 @@ package com.theironyard.charlotte;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Main {
 
@@ -151,6 +153,31 @@ public class Main {
         }
 
         return max;
+    }
+
+    public static int rosebud(String input) {
+        Pattern p = Pattern.compile("rosebud(!+)1");
+        Matcher m = p.matcher(input);
+
+        if (!m.matches()) {
+            return 0;
+        }
+
+        return m.group(1).length();
+//        int dollaCount = 0;
+//
+//        if (input.startsWith("rosebud") && input.endsWith("1")) {
+//            int idx = input.indexOf("!");
+//            if (idx != -1) {
+//                // we've found an exclamation point
+//                while (input.charAt(idx) == '!') {
+//                    dollaCount++;
+//                    idx++;
+//                }
+//            }
+//        }
+//
+//        return dollaCount;
     }
 }
 

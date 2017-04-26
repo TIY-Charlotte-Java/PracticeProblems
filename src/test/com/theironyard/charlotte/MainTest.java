@@ -27,4 +27,13 @@ public class MainTest {
         assertEquals(4, Main.longx("asdxxxxf"));
         assertEquals(5, Main.longx("xxpxxxxxp"));
     }
+
+    @Test
+    public void rosebudReturnsTheAppropriateMoneys() {
+        assertEquals(3, Main.rosebud("rosebud!!!1"));
+        assertEquals(0, Main.rosebud("r!!ose!bud!!1"));
+        assertEquals(0, Main.rosebud("pants"));
+        assertEquals(5, Main.rosebud("rosebud!!!!!1"));
+        assertEquals(0, Main.rosebud("rosebud!!pants!!1"));
+    }
 }
