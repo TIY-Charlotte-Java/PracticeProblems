@@ -36,4 +36,19 @@ public class MainTest {
         assertEquals(5, Main.rosebud("rosebud!!!!!1"));
         assertEquals(0, Main.rosebud("rosebud!!pants!!1"));
     }
+
+    @Test
+    public void sevenUpTestsNumberOfSevensInInt() {
+        assertEquals(0, Main.sevenUp(123));
+        assertEquals(1, Main.sevenUp(700));
+        assertEquals(2, Main.sevenUp(177));
+        assertEquals(3, Main.sevenUp(43700707));
+    }
+
+    @Test
+    public void titleCaseAppropriatelyCasesWords() {
+        assertEquals("San Diego", Main.headerliner("sAN DIEGO"));
+        assertEquals("Where The Red Fern Grows", Main.headerliner("where the red fern grows"));
+        assertEquals("Chicken Pot Pie", Main.headerliner("chicken POT PIE"));
+    }
 }

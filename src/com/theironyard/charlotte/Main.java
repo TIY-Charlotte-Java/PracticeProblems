@@ -179,5 +179,72 @@ public class Main {
 //
 //        return dollaCount;
     }
+
+    public static int sevenUp(int sevenInput) {
+//        System.out.println("The value of SevenInput:\n " + sevenInput);
+
+        // base case
+        if (sevenInput == 0) {
+            return 0;
+        }
+
+        // find the last 7 in the number
+        boolean found = (sevenInput % 10) == 7;
+
+        return (found ? 1 : 0) + sevenUp(sevenInput / 10);
+
+//        if (found) {
+//            return 1 + sevenUp(sevenInput / 10);
+//        } else {
+//            return sevenUp(sevenInput / 10);
+//        }
+
+        //        Pattern p = Pattern.compile("(7)");
+//        Matcher m = p.matcher(String.valueOf(sevenInput));
+//
+//        int found = 0;
+//        while (m.find()) {
+//            found++;
+//        }
+//
+//        return found;
+
+        //return String.valueOf(sevenInput).replaceAll("[^7]", "").length();
+    }
+
+    public static String headerliner(String input) {
+        // we expect to manipulate the string, so we use a string builder
+        StringBuilder sb = new StringBuilder(input);
+
+        // this is a boolean that will tell us if the next thing
+        // should be capitalized
+
+        // setting this to true indicates the first letter
+        // we come across should be capitalized
+        boolean shouldbeCapitalized = true;
+
+
+        for (int i = 0;i < sb.length();i++) {
+            Character currentCharacter = sb.charAt(i);
+
+            if (shouldbeCapitalized) {
+                sb.setCharAt(i, Character.toTitleCase(currentCharacter));
+            } else {
+                sb.setCharAt(i, Character.toLowerCase(currentCharacter));
+            }
+
+            // This:
+//            if (Character.isSpaceChar(currentCharacter)) {
+//                shouldbeCapitalized = true;
+//            } else {
+//                shouldbeCapitalized = false;
+//            }
+
+            // Equivalent:
+            shouldbeCapitalized = Character.isSpaceChar(currentCharacter);
+        }
+
+        return sb.toString();
+    }
 }
 
