@@ -102,7 +102,6 @@ public class Main {
         return results;
     }
 
-
     /**
      * See definition in "divisibles"
      * @param first
@@ -245,6 +244,65 @@ public class Main {
         }
 
         return sb.toString();
+    }
+
+    public static int maxBlock(String word) {
+        Pattern p = Pattern.compile("(.)\\1*");
+        Matcher m = p.matcher(word);
+
+        int maxLength = 0;
+
+        while (m.find()) {
+            int matchLength = m.group(0).length();
+
+            if (matchLength > maxLength) {
+                maxLength = matchLength;
+            }
+        }
+
+        return maxLength;
+    }
+
+    public static String weave(String word, int xcount) {
+        StringBuilder sb = new StringBuilder(word);
+
+        // use this for loop to replace some characters
+        // with the letter 'x'.
+        for (int i = 0;i < sb.length();i++) {
+            if (i % xcount == 0) {
+                sb.setCharAt(i, 'x');
+            }
+        }
+
+        // return the string value of the stringbuilder
+        return sb.toString();
+    }
+
+    public static int desirable(String houseBlocks) {
+        int desirableCount = 0;
+
+        for (int i = 0;i < houseBlocks.length();i++) {
+            if (houseBlocks.charAt(i) == 'H') {
+                // we're looking to the left
+                if ((i > 0 && houseBlocks.charAt(i - 1) == 'R') ||
+                    (i > 1 && houseBlocks.charAt(i - 2) == 'R')) {
+                    desirableCount++;
+                }
+
+                // now we need to look to the right of the 'H'
+                // we're going to check charAt(i + 1) and charAt(i + 2);
+                else {
+                    int idx1 = i + 1 < houseBlocks.length() ? i + 1 : houseBlocks.length() - 1;
+                    int idx2 = i + 2 < houseBlocks.length() ? i + 2 : houseBlocks.length() - 1;
+
+                    if (houseBlocks.charAt(idx1) == 'R' || houseBlocks.charAt(idx2) == 'R') {
+                        desirableCount++;
+                    }
+                }
+            }
+        }
+
+        return desirableCount;
     }
 }
 

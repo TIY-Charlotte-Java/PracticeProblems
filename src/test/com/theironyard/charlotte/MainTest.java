@@ -51,4 +51,25 @@ public class MainTest {
         assertEquals("Where The Red Fern Grows", Main.headerliner("where the red fern grows"));
         assertEquals("Chicken Pot Pie", Main.headerliner("chicken POT PIE"));
     }
+
+    @Test
+    public void maxBlockReturnsLongestRunOfCharactersInString() {
+        assertEquals(2, Main.maxBlock("hoopla"));
+        assertEquals(3, Main.maxBlock("abbCCCddBBBxx"));
+        assertEquals(2, Main.maxBlock("mississippi"));
+        assertEquals(1, Main.maxBlock("antidisestablishmentarianism"));
+    }
+
+    @Test
+    public void weaveFunctionReplacesLettersWithX() {
+        assertEquals("xbcxefx", Main.weave("abcdefg", 3));
+        assertEquals("xoxox", Main.weave("ooooo", 2));
+    }
+
+
+    @Test
+    public void desirableReturnsTheDesirableNumberOfHouses() {
+        assertEquals(2, Main.desirable("RHHHH"));
+        assertEquals(3, Main.desirable("RHHHR"));
+    }
 }
