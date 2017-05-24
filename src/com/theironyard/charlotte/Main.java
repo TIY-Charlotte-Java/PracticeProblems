@@ -1,9 +1,9 @@
 package com.theironyard.charlotte;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 public class Main {
 
@@ -19,8 +19,72 @@ public class Main {
 
 //        Robot r = new Sonny();
 
-        Robot r = new Sonny();
-        System.out.println(r);
+//        Robot r = new Sonny();
+//        System.out.println(r);
+
+
+
+        List<Transaction> transactions = new ArrayList<>();
+
+        transactions.add(new Transaction(10.00, Transaction.TransactionType.BILLS));
+        transactions.add(new Transaction(15.00, Transaction.TransactionType.BILLS));
+        transactions.add(new Transaction(12.00, Transaction.TransactionType.GROCERY));
+        transactions.add(new Transaction(7.00, Transaction.TransactionType.BILLS));
+        transactions.add(new Transaction(100.00, Transaction.TransactionType.BILLS));
+        transactions.add(new Transaction(120.00, Transaction.TransactionType.BILLS));
+            transactions.add(new Transaction(3.00, Transaction.TransactionType.GROCERY));
+        transactions.add(new Transaction(3.50, Transaction.TransactionType.BILLS));
+        transactions.add(new Transaction(6.00, Transaction.TransactionType.BILLS));
+        transactions.add(new Transaction(9.6, Transaction.TransactionType.GROCERY));
+
+
+        List<Transaction> groceryTransactions = new ArrayList<>();
+
+        for(Transaction t: transactions){
+            if(t.getType() == Transaction.TransactionType.GROCERY){
+                groceryTransactions.add(t);
+            }
+        }
+
+        // using a comparable object to sort groceryTransactions by their value
+        Collections.sort(groceryTransactions, new Comparator<Transaction>() {
+            @Override
+            public int compare(Transaction o1, Transaction o2) {
+                return (int)(o2.getValue() - o1.getValue());
+            }
+        });
+
+
+//        List<Integer> transactionIds = new ArrayList<>();
+//        for(Transaction t: groceryTransactions){
+//            transactionIds.add(t.getId());
+//        }
+
+        List<Integer> transactionIds =
+                // stream our original list..
+                transactions.stream() // Stream<Transaction>
+
+                // filter out all the non-groceries..
+                .filter(t -> t.getType().equals(Transaction.TransactionType.GROCERY)) // Stream<Transaction>
+                // sort them
+                .sorted(new Comparator<Transaction>() {
+                    @Override
+                    public int compare(Transaction o1, Transaction o2) {
+                        return (int)(o2.getValue() - o1.getValue());
+                    }
+                }) // Sorted Stream<Transaction>
+                // map the transaction to its id integer
+                .map(t -> t.getId()) // convert the Stream<Transaction> to Stream<Integer>
+                // convert the stream that we're using to a list.
+                .collect(Collectors.toList()); // convert Stream<Integer> to List<Integer>
+
+        System.out.println(transactionIds);
+
+
+
+
+
+
 
     }
 

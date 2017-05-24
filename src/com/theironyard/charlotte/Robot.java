@@ -32,6 +32,9 @@ public abstract class Robot {
 
     @Override
     public String toString() {
-        return String.format("SYSTEM DIAGNOSTICS: \n VERSION: %s \n LAWS: \n%s", version, String.join("\n", getLaws()));
+        return String.format(
+                "SYSTEM DIAGNOSTICS: \n VERSION: %s \n LAWS: \n%s",
+                version,
+                String.join("\n", getLaws()));
     }
 }
