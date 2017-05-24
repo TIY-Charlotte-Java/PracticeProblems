@@ -15,8 +15,16 @@ public class Main {
 //        int[] numbers = new int[] { 10, 4, 8, 6, 12, 19, 35 };
 //
 //        System.out.println(getSecondHighest(numbers));
+
+
+//        Robot r = new Sonny();
+
+        Robot r = new Sonny();
+        System.out.println(r);
+
     }
 
+    // look like this
     public static int getSecondHighest(int[] numbers) {
         int secondLargest = -1;
         int largest = -1;
@@ -34,6 +42,13 @@ public class Main {
         return secondLargest;
     }
 
+
+    /**
+     * Returns a boolean representing whether the input string
+     * is a palindrome
+     * @param input the input string to test
+     * @return true if input is a palindrome
+     */
     public static boolean isPalindrome(String input) {
         input = input.replaceAll("\\s", "");
 

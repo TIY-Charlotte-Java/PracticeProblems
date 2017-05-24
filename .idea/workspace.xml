@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aa51330-ca98-4093-9a8d-c7dc8ea7c5f9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeProblems/com/theironyard/charlotte/Main.class" afterPath="$PROJECT_DIR$/out/production/PracticeProblems/com/theironyard/charlotte/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/PracticeProblems/com/theironyard/charlotte/MainTest.class" afterPath="$PROJECT_DIR$/out/test/PracticeProblems/com/theironyard/charlotte/MainTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/theironyard/charlotte/Robot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/theironyard/charlotte/Sonny.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/theironyard/charlotte/Main.java" afterPath="$PROJECT_DIR$/src/com/theironyard/charlotte/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/com/theironyard/charlotte/MainTest.java" afterPath="$PROJECT_DIR$/src/test/com/theironyard/charlotte/MainTest.java" />
     </list>
     <ignored path="PracticeProblems.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,35 +26,100 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/theironyard/charlotte/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="733">
-              <caret line="300" column="17" lean-forward="false" selection-start-line="300" selection-start-column="17" selection-end-line="300" selection-end-column="17" />
+            <state relative-caret-position="25">
+              <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
               <folding>
-                <element signature="method#main#0;class#Main#0" expanded="false" />
-                <element signature="e#220#274#0" expanded="false" />
-                <element signature="method#getSecondHighest#0;class#Main#0" expanded="false" />
-                <element signature="e#639#687#0" expanded="false" />
-                <element signature="method#isPalindrome#0;class#Main#0" expanded="false" />
+                <element signature="e#760#808#0" expanded="false" />
                 <element signature="method#balanced#0;class#Main#0" expanded="false" />
                 <element signature="docComment;method#divisibles#0;class#Main#0" expanded="false" />
                 <element signature="method#divisibles#0;class#Main#0" expanded="false" />
-                <element signature="e#1970#2014#0" expanded="false" />
-                <element signature="e#2181#2230#0" expanded="false" />
-                <element signature="e#2491#2534#0" expanded="false" />
-                <element signature="e#2682#2724#0" expanded="false" />
+                <element signature="e#2284#2328#0" expanded="false" />
+                <element signature="e#2495#2544#0" expanded="false" />
+                <element signature="e#2805#2848#0" expanded="false" />
+                <element signature="e#2996#3038#0" expanded="false" />
+                <element signature="docComment;method#divisiblesStreams#0;class#Main#0" expanded="false" />
+                <element signature="method#divisiblesStreams#0;class#Main#0" expanded="false" />
+                <element signature="e#3687#3722#0" expanded="false" />
+                <element signature="method#longx#0;class#Main#0" expanded="false" />
+                <element signature="e#4482#4502#0" expanded="false" />
+                <element signature="e#4583#4601#0" expanded="false" />
+                <element signature="method#rosebud#0;class#Main#0" expanded="false" />
+                <element signature="e#5124#5153#0" expanded="false" />
+                <element signature="method#sevenUp#0;class#Main#0" expanded="false" />
+                <element signature="e#5607#5680#0" expanded="false" />
+                <element signature="e#5917#5939#0" expanded="false" />
+                <element signature="method#headerliner#0;class#Main#0" expanded="false" />
+                <element signature="e#6578#6634#0" expanded="false" />
+                <element signature="e#7159#7167#0" expanded="false" />
+                <element signature="method#maxBlock#0;class#Main#0" expanded="false" />
+                <element signature="method#weave#0;class#Main#0" expanded="false" />
+                <element signature="e#8012#8059#0" expanded="false" />
+                <element signature="method#desirable#0;class#Main#0" expanded="false" />
+                <element signature="e#8771#8817#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/com/theironyard/charlotte/MainTest.java">
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/theironyard/charlotte/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="687">
-              <caret line="72" column="32" lean-forward="false" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
+            <state relative-caret-position="120">
+              <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+              <folding>
+                <element signature="e#175#176#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/src.zip!/java/lang/StringBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="75" column="19" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sonny.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/theironyard/charlotte/Sonny.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding>
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#156#157#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/src.zip!/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="110" column="17" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Robot.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/theironyard/charlotte/Robot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1125#1126#0" expanded="true" />
+                <element signature="e#1152#1153#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,14 +147,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/theironyard/charlotte/Person.java" />
         <option value="$PROJECT_DIR$/src/test/com/theironyard/charlotte/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/com/theironyard/charlotte/Sonny.java" />
         <option value="$PROJECT_DIR$/src/com/theironyard/charlotte/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/theironyard/charlotte/Robot.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1053" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -107,63 +173,31 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PracticeProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PracticeProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PracticeProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PracticeProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="charlotte" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PracticeProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PracticeProblems" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="charlotte" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="PracticeProblems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracticeProblems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticeProblems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracticeProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PracticeProblems" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracticeProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="charlotte" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,8 +227,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.theironyard.charlotte.Main" />
       <option name="VM_PARAMETERS" value="" />
@@ -209,9 +243,8 @@
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method />
     </configuration>
-    <configuration default="false" name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.theironyard.charlotte.*" />
@@ -235,9 +268,8 @@
       </option>
       <envs />
       <patterns />
-      <method />
     </configuration>
-    <configuration default="false" name="MainTest.titleCaseAppropriatelyCasesWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.titleCaseAppropriatelyCasesWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.theironyard.charlotte.*" />
@@ -261,7 +293,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
@@ -287,6 +318,25 @@
         <option name="SUPPORT_LIB_ENABLED" value="true" />
         <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method />
@@ -451,30 +501,11 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MainTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MainTest.titleCaseAppropriatelyCasesWords" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MainTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MainTest.titleCaseAppropriatelyCasesWords" />
       </list>
     </recent_temporary>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -493,12 +524,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest - 2017.05.01 at 09h 44m 38s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainTest - 2017.05.01 at 09h 45m 11s.xml">
-      <configuration name="MainTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MainTest - 2017.05.01 at 09h 59m 58s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
@@ -506,6 +531,12 @@
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MainTest - 2017.05.03 at 09h 46m 24s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest - 2017.05.04 at 10h 10m 07s.xml">
+      <configuration name="MainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest - 2017.05.24 at 09h 18m 25s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MainTest_titleCaseAppropriatelyCasesWords - 2017.05.01 at 09h 46m 14s.xml">
@@ -525,40 +556,40 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1053" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4904552" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48967552" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26222685" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26106194" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1682641" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Reviews" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16801292" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="News Feed" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39854318" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="News Feed" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Reviews" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -578,12 +609,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/theironyard/charlotte/Main.java</url>
-          <line>43</line>
+          <line>58</line>
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/theironyard/charlotte/Main.java</url>
-          <line>29</line>
+          <line>37</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -593,8 +624,20 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/theironyard/charlotte/Sonny.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/theironyard/charlotte/Robot.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -603,64 +646,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/com/theironyard/charlotte/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/theironyard/charlotte/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-            <element signature="e#220#274#0" expanded="false" />
-            <element signature="method#getSecondHighest#0;class#Main#0" expanded="false" />
-            <element signature="e#639#687#0" expanded="false" />
-            <element signature="method#isPalindrome#0;class#Main#0" expanded="false" />
-            <element signature="method#balanced#0;class#Main#0" expanded="false" />
-            <element signature="docComment;method#divisibles#0;class#Main#0" expanded="false" />
-            <element signature="method#divisibles#0;class#Main#0" expanded="false" />
-            <element signature="e#1970#2014#0" expanded="false" />
-            <element signature="e#2181#2230#0" expanded="false" />
-            <element signature="e#2491#2534#0" expanded="false" />
-            <element signature="e#2682#2724#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/theironyard/charlotte/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="65" column="37" lean-forward="false" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/theironyard/charlotte/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-            <element signature="e#220#274#0" expanded="false" />
-            <element signature="method#getSecondHighest#0;class#Main#0" expanded="false" />
-            <element signature="e#639#687#0" expanded="false" />
-            <element signature="method#isPalindrome#0;class#Main#0" expanded="false" />
-            <element signature="method#balanced#0;class#Main#0" expanded="false" />
-            <element signature="docComment;method#divisibles#0;class#Main#0" expanded="false" />
-            <element signature="method#divisibles#0;class#Main#0" expanded="false" />
-            <element signature="e#1970#2014#0" expanded="false" />
-            <element signature="e#2181#2230#0" expanded="false" />
-            <element signature="e#2491#2534#0" expanded="false" />
-            <element signature="e#2682#2724#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16890">
@@ -689,18 +674,33 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-            <element signature="e#220#274#0" expanded="false" />
-            <element signature="method#getSecondHighest#0;class#Main#0" expanded="false" />
-            <element signature="e#639#687#0" expanded="false" />
-            <element signature="method#isPalindrome#0;class#Main#0" expanded="false" />
+            <element signature="e#760#808#0" expanded="false" />
             <element signature="method#balanced#0;class#Main#0" expanded="false" />
             <element signature="docComment;method#divisibles#0;class#Main#0" expanded="false" />
             <element signature="method#divisibles#0;class#Main#0" expanded="false" />
-            <element signature="e#1970#2014#0" expanded="false" />
-            <element signature="e#2181#2230#0" expanded="false" />
-            <element signature="e#2491#2534#0" expanded="false" />
-            <element signature="e#2682#2724#0" expanded="false" />
+            <element signature="e#2284#2328#0" expanded="false" />
+            <element signature="e#2495#2544#0" expanded="false" />
+            <element signature="e#2805#2848#0" expanded="false" />
+            <element signature="e#2996#3038#0" expanded="false" />
+            <element signature="docComment;method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="e#3687#3722#0" expanded="false" />
+            <element signature="method#longx#0;class#Main#0" expanded="false" />
+            <element signature="e#4482#4502#0" expanded="false" />
+            <element signature="e#4583#4601#0" expanded="false" />
+            <element signature="method#rosebud#0;class#Main#0" expanded="false" />
+            <element signature="e#5124#5153#0" expanded="false" />
+            <element signature="method#sevenUp#0;class#Main#0" expanded="false" />
+            <element signature="e#5607#5680#0" expanded="false" />
+            <element signature="e#5917#5939#0" expanded="false" />
+            <element signature="method#headerliner#0;class#Main#0" expanded="false" />
+            <element signature="e#6578#6634#0" expanded="false" />
+            <element signature="e#7159#7167#0" expanded="false" />
+            <element signature="method#maxBlock#0;class#Main#0" expanded="false" />
+            <element signature="method#weave#0;class#Main#0" expanded="false" />
+            <element signature="e#8012#8059#0" expanded="false" />
+            <element signature="method#desirable#0;class#Main#0" expanded="false" />
+            <element signature="e#8771#8817#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -733,18 +733,33 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-            <element signature="e#220#274#0" expanded="false" />
-            <element signature="method#getSecondHighest#0;class#Main#0" expanded="false" />
-            <element signature="e#639#687#0" expanded="false" />
-            <element signature="method#isPalindrome#0;class#Main#0" expanded="false" />
+            <element signature="e#760#808#0" expanded="false" />
             <element signature="method#balanced#0;class#Main#0" expanded="false" />
             <element signature="docComment;method#divisibles#0;class#Main#0" expanded="false" />
             <element signature="method#divisibles#0;class#Main#0" expanded="false" />
-            <element signature="e#1970#2014#0" expanded="false" />
-            <element signature="e#2181#2230#0" expanded="false" />
-            <element signature="e#2491#2534#0" expanded="false" />
-            <element signature="e#2682#2724#0" expanded="false" />
+            <element signature="e#2284#2328#0" expanded="false" />
+            <element signature="e#2495#2544#0" expanded="false" />
+            <element signature="e#2805#2848#0" expanded="false" />
+            <element signature="e#2996#3038#0" expanded="false" />
+            <element signature="docComment;method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="e#3687#3722#0" expanded="false" />
+            <element signature="method#longx#0;class#Main#0" expanded="false" />
+            <element signature="e#4482#4502#0" expanded="false" />
+            <element signature="e#4583#4601#0" expanded="false" />
+            <element signature="method#rosebud#0;class#Main#0" expanded="false" />
+            <element signature="e#5124#5153#0" expanded="false" />
+            <element signature="method#sevenUp#0;class#Main#0" expanded="false" />
+            <element signature="e#5607#5680#0" expanded="false" />
+            <element signature="e#5917#5939#0" expanded="false" />
+            <element signature="method#headerliner#0;class#Main#0" expanded="false" />
+            <element signature="e#6578#6634#0" expanded="false" />
+            <element signature="e#7159#7167#0" expanded="false" />
+            <element signature="method#maxBlock#0;class#Main#0" expanded="false" />
+            <element signature="method#weave#0;class#Main#0" expanded="false" />
+            <element signature="e#8012#8059#0" expanded="false" />
+            <element signature="method#desirable#0;class#Main#0" expanded="false" />
+            <element signature="e#8771#8817#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -769,18 +784,33 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-            <element signature="e#220#274#0" expanded="false" />
-            <element signature="method#getSecondHighest#0;class#Main#0" expanded="false" />
-            <element signature="e#639#687#0" expanded="false" />
-            <element signature="method#isPalindrome#0;class#Main#0" expanded="false" />
+            <element signature="e#760#808#0" expanded="false" />
             <element signature="method#balanced#0;class#Main#0" expanded="false" />
             <element signature="docComment;method#divisibles#0;class#Main#0" expanded="false" />
             <element signature="method#divisibles#0;class#Main#0" expanded="false" />
-            <element signature="e#1970#2014#0" expanded="false" />
-            <element signature="e#2181#2230#0" expanded="false" />
-            <element signature="e#2491#2534#0" expanded="false" />
-            <element signature="e#2682#2724#0" expanded="false" />
+            <element signature="e#2284#2328#0" expanded="false" />
+            <element signature="e#2495#2544#0" expanded="false" />
+            <element signature="e#2805#2848#0" expanded="false" />
+            <element signature="e#2996#3038#0" expanded="false" />
+            <element signature="docComment;method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="e#3687#3722#0" expanded="false" />
+            <element signature="method#longx#0;class#Main#0" expanded="false" />
+            <element signature="e#4482#4502#0" expanded="false" />
+            <element signature="e#4583#4601#0" expanded="false" />
+            <element signature="method#rosebud#0;class#Main#0" expanded="false" />
+            <element signature="e#5124#5153#0" expanded="false" />
+            <element signature="method#sevenUp#0;class#Main#0" expanded="false" />
+            <element signature="e#5607#5680#0" expanded="false" />
+            <element signature="e#5917#5939#0" expanded="false" />
+            <element signature="method#headerliner#0;class#Main#0" expanded="false" />
+            <element signature="e#6578#6634#0" expanded="false" />
+            <element signature="e#7159#7167#0" expanded="false" />
+            <element signature="method#maxBlock#0;class#Main#0" expanded="false" />
+            <element signature="method#weave#0;class#Main#0" expanded="false" />
+            <element signature="e#8012#8059#0" expanded="false" />
+            <element signature="method#desirable#0;class#Main#0" expanded="false" />
+            <element signature="e#8771#8817#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -798,18 +828,33 @@
         <state relative-caret-position="1380">
           <caret line="158" column="15" lean-forward="false" selection-start-line="158" selection-start-column="15" selection-end-line="158" selection-end-column="15" />
           <folding>
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-            <element signature="e#220#274#0" expanded="false" />
-            <element signature="method#getSecondHighest#0;class#Main#0" expanded="false" />
-            <element signature="e#639#687#0" expanded="false" />
-            <element signature="method#isPalindrome#0;class#Main#0" expanded="false" />
+            <element signature="e#760#808#0" expanded="false" />
             <element signature="method#balanced#0;class#Main#0" expanded="false" />
             <element signature="docComment;method#divisibles#0;class#Main#0" expanded="false" />
             <element signature="method#divisibles#0;class#Main#0" expanded="false" />
-            <element signature="e#1970#2014#0" expanded="false" />
-            <element signature="e#2181#2230#0" expanded="false" />
-            <element signature="e#2491#2534#0" expanded="false" />
-            <element signature="e#2682#2724#0" expanded="false" />
+            <element signature="e#2284#2328#0" expanded="false" />
+            <element signature="e#2495#2544#0" expanded="false" />
+            <element signature="e#2805#2848#0" expanded="false" />
+            <element signature="e#2996#3038#0" expanded="false" />
+            <element signature="docComment;method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="e#3687#3722#0" expanded="false" />
+            <element signature="method#longx#0;class#Main#0" expanded="false" />
+            <element signature="e#4482#4502#0" expanded="false" />
+            <element signature="e#4583#4601#0" expanded="false" />
+            <element signature="method#rosebud#0;class#Main#0" expanded="false" />
+            <element signature="e#5124#5153#0" expanded="false" />
+            <element signature="method#sevenUp#0;class#Main#0" expanded="false" />
+            <element signature="e#5607#5680#0" expanded="false" />
+            <element signature="e#5917#5939#0" expanded="false" />
+            <element signature="method#headerliner#0;class#Main#0" expanded="false" />
+            <element signature="e#6578#6634#0" expanded="false" />
+            <element signature="e#7159#7167#0" expanded="false" />
+            <element signature="method#maxBlock#0;class#Main#0" expanded="false" />
+            <element signature="method#weave#0;class#Main#0" expanded="false" />
+            <element signature="e#8012#8059#0" expanded="false" />
+            <element signature="method#desirable#0;class#Main#0" expanded="false" />
+            <element signature="e#8771#8817#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -827,18 +872,33 @@
         <state relative-caret-position="1425">
           <caret line="158" column="15" lean-forward="false" selection-start-line="158" selection-start-column="15" selection-end-line="158" selection-end-column="15" />
           <folding>
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-            <element signature="e#220#274#0" expanded="false" />
-            <element signature="method#getSecondHighest#0;class#Main#0" expanded="false" />
-            <element signature="e#639#687#0" expanded="false" />
-            <element signature="method#isPalindrome#0;class#Main#0" expanded="false" />
+            <element signature="e#760#808#0" expanded="false" />
             <element signature="method#balanced#0;class#Main#0" expanded="false" />
             <element signature="docComment;method#divisibles#0;class#Main#0" expanded="false" />
             <element signature="method#divisibles#0;class#Main#0" expanded="false" />
-            <element signature="e#1970#2014#0" expanded="false" />
-            <element signature="e#2181#2230#0" expanded="false" />
-            <element signature="e#2491#2534#0" expanded="false" />
-            <element signature="e#2682#2724#0" expanded="false" />
+            <element signature="e#2284#2328#0" expanded="false" />
+            <element signature="e#2495#2544#0" expanded="false" />
+            <element signature="e#2805#2848#0" expanded="false" />
+            <element signature="e#2996#3038#0" expanded="false" />
+            <element signature="docComment;method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="e#3687#3722#0" expanded="false" />
+            <element signature="method#longx#0;class#Main#0" expanded="false" />
+            <element signature="e#4482#4502#0" expanded="false" />
+            <element signature="e#4583#4601#0" expanded="false" />
+            <element signature="method#rosebud#0;class#Main#0" expanded="false" />
+            <element signature="e#5124#5153#0" expanded="false" />
+            <element signature="method#sevenUp#0;class#Main#0" expanded="false" />
+            <element signature="e#5607#5680#0" expanded="false" />
+            <element signature="e#5917#5939#0" expanded="false" />
+            <element signature="method#headerliner#0;class#Main#0" expanded="false" />
+            <element signature="e#6578#6634#0" expanded="false" />
+            <element signature="e#7159#7167#0" expanded="false" />
+            <element signature="method#maxBlock#0;class#Main#0" expanded="false" />
+            <element signature="method#weave#0;class#Main#0" expanded="false" />
+            <element signature="e#8012#8059#0" expanded="false" />
+            <element signature="method#desirable#0;class#Main#0" expanded="false" />
+            <element signature="e#8771#8817#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -856,18 +916,33 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-            <element signature="e#220#274#0" expanded="false" />
-            <element signature="method#getSecondHighest#0;class#Main#0" expanded="false" />
-            <element signature="e#639#687#0" expanded="false" />
-            <element signature="method#isPalindrome#0;class#Main#0" expanded="false" />
+            <element signature="e#760#808#0" expanded="false" />
             <element signature="method#balanced#0;class#Main#0" expanded="false" />
             <element signature="docComment;method#divisibles#0;class#Main#0" expanded="false" />
             <element signature="method#divisibles#0;class#Main#0" expanded="false" />
-            <element signature="e#1970#2014#0" expanded="false" />
-            <element signature="e#2181#2230#0" expanded="false" />
-            <element signature="e#2491#2534#0" expanded="false" />
-            <element signature="e#2682#2724#0" expanded="false" />
+            <element signature="e#2284#2328#0" expanded="false" />
+            <element signature="e#2495#2544#0" expanded="false" />
+            <element signature="e#2805#2848#0" expanded="false" />
+            <element signature="e#2996#3038#0" expanded="false" />
+            <element signature="docComment;method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="e#3687#3722#0" expanded="false" />
+            <element signature="method#longx#0;class#Main#0" expanded="false" />
+            <element signature="e#4482#4502#0" expanded="false" />
+            <element signature="e#4583#4601#0" expanded="false" />
+            <element signature="method#rosebud#0;class#Main#0" expanded="false" />
+            <element signature="e#5124#5153#0" expanded="false" />
+            <element signature="method#sevenUp#0;class#Main#0" expanded="false" />
+            <element signature="e#5607#5680#0" expanded="false" />
+            <element signature="e#5917#5939#0" expanded="false" />
+            <element signature="method#headerliner#0;class#Main#0" expanded="false" />
+            <element signature="e#6578#6634#0" expanded="false" />
+            <element signature="e#7159#7167#0" expanded="false" />
+            <element signature="method#maxBlock#0;class#Main#0" expanded="false" />
+            <element signature="method#weave#0;class#Main#0" expanded="false" />
+            <element signature="e#8012#8059#0" expanded="false" />
+            <element signature="method#desirable#0;class#Main#0" expanded="false" />
+            <element signature="e#8771#8817#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -877,12 +952,8 @@
         <state relative-caret-position="120">
           <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding>
-            <element signature="e#175#176#0" expanded="false" />
-            <element signature="e#207#208#0" expanded="false" />
-            <element signature="e#238#239#0" expanded="false" />
-            <element signature="e#265#266#0" expanded="false" />
-            <element signature="e#305#306#0" expanded="false" />
-            <element signature="e#337#338#0" expanded="false" />
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -928,18 +999,33 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-            <element signature="e#220#274#0" expanded="false" />
-            <element signature="method#getSecondHighest#0;class#Main#0" expanded="false" />
-            <element signature="e#639#687#0" expanded="false" />
-            <element signature="method#isPalindrome#0;class#Main#0" expanded="false" />
+            <element signature="e#760#808#0" expanded="false" />
             <element signature="method#balanced#0;class#Main#0" expanded="false" />
             <element signature="docComment;method#divisibles#0;class#Main#0" expanded="false" />
             <element signature="method#divisibles#0;class#Main#0" expanded="false" />
-            <element signature="e#1970#2014#0" expanded="false" />
-            <element signature="e#2181#2230#0" expanded="false" />
-            <element signature="e#2491#2534#0" expanded="false" />
-            <element signature="e#2682#2724#0" expanded="false" />
+            <element signature="e#2284#2328#0" expanded="false" />
+            <element signature="e#2495#2544#0" expanded="false" />
+            <element signature="e#2805#2848#0" expanded="false" />
+            <element signature="e#2996#3038#0" expanded="false" />
+            <element signature="docComment;method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="e#3687#3722#0" expanded="false" />
+            <element signature="method#longx#0;class#Main#0" expanded="false" />
+            <element signature="e#4482#4502#0" expanded="false" />
+            <element signature="e#4583#4601#0" expanded="false" />
+            <element signature="method#rosebud#0;class#Main#0" expanded="false" />
+            <element signature="e#5124#5153#0" expanded="false" />
+            <element signature="method#sevenUp#0;class#Main#0" expanded="false" />
+            <element signature="e#5607#5680#0" expanded="false" />
+            <element signature="e#5917#5939#0" expanded="false" />
+            <element signature="method#headerliner#0;class#Main#0" expanded="false" />
+            <element signature="e#6578#6634#0" expanded="false" />
+            <element signature="e#7159#7167#0" expanded="false" />
+            <element signature="method#maxBlock#0;class#Main#0" expanded="false" />
+            <element signature="method#weave#0;class#Main#0" expanded="false" />
+            <element signature="e#8012#8059#0" expanded="false" />
+            <element signature="method#desirable#0;class#Main#0" expanded="false" />
+            <element signature="e#8771#8817#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -949,12 +1035,8 @@
         <state relative-caret-position="120">
           <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding>
-            <element signature="e#175#176#0" expanded="false" />
-            <element signature="e#207#208#0" expanded="false" />
-            <element signature="e#238#239#0" expanded="false" />
-            <element signature="e#265#266#0" expanded="false" />
-            <element signature="e#305#306#0" expanded="false" />
-            <element signature="e#337#338#0" expanded="false" />
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1000,18 +1082,33 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-            <element signature="e#220#274#0" expanded="false" />
-            <element signature="method#getSecondHighest#0;class#Main#0" expanded="false" />
-            <element signature="e#639#687#0" expanded="false" />
-            <element signature="method#isPalindrome#0;class#Main#0" expanded="false" />
+            <element signature="e#760#808#0" expanded="false" />
             <element signature="method#balanced#0;class#Main#0" expanded="false" />
             <element signature="docComment;method#divisibles#0;class#Main#0" expanded="false" />
             <element signature="method#divisibles#0;class#Main#0" expanded="false" />
-            <element signature="e#1970#2014#0" expanded="false" />
-            <element signature="e#2181#2230#0" expanded="false" />
-            <element signature="e#2491#2534#0" expanded="false" />
-            <element signature="e#2682#2724#0" expanded="false" />
+            <element signature="e#2284#2328#0" expanded="false" />
+            <element signature="e#2495#2544#0" expanded="false" />
+            <element signature="e#2805#2848#0" expanded="false" />
+            <element signature="e#2996#3038#0" expanded="false" />
+            <element signature="docComment;method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="e#3687#3722#0" expanded="false" />
+            <element signature="method#longx#0;class#Main#0" expanded="false" />
+            <element signature="e#4482#4502#0" expanded="false" />
+            <element signature="e#4583#4601#0" expanded="false" />
+            <element signature="method#rosebud#0;class#Main#0" expanded="false" />
+            <element signature="e#5124#5153#0" expanded="false" />
+            <element signature="method#sevenUp#0;class#Main#0" expanded="false" />
+            <element signature="e#5607#5680#0" expanded="false" />
+            <element signature="e#5917#5939#0" expanded="false" />
+            <element signature="method#headerliner#0;class#Main#0" expanded="false" />
+            <element signature="e#6578#6634#0" expanded="false" />
+            <element signature="e#7159#7167#0" expanded="false" />
+            <element signature="method#maxBlock#0;class#Main#0" expanded="false" />
+            <element signature="method#weave#0;class#Main#0" expanded="false" />
+            <element signature="e#8012#8059#0" expanded="false" />
+            <element signature="method#desirable#0;class#Main#0" expanded="false" />
+            <element signature="e#8771#8817#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1036,18 +1133,33 @@
         <state relative-caret-position="180">
           <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-            <element signature="e#220#274#0" expanded="false" />
-            <element signature="method#getSecondHighest#0;class#Main#0" expanded="false" />
-            <element signature="e#639#687#0" expanded="false" />
-            <element signature="method#isPalindrome#0;class#Main#0" expanded="false" />
+            <element signature="e#760#808#0" expanded="false" />
             <element signature="method#balanced#0;class#Main#0" expanded="false" />
             <element signature="docComment;method#divisibles#0;class#Main#0" expanded="false" />
             <element signature="method#divisibles#0;class#Main#0" expanded="false" />
-            <element signature="e#1970#2014#0" expanded="false" />
-            <element signature="e#2181#2230#0" expanded="false" />
-            <element signature="e#2491#2534#0" expanded="false" />
-            <element signature="e#2682#2724#0" expanded="false" />
+            <element signature="e#2284#2328#0" expanded="false" />
+            <element signature="e#2495#2544#0" expanded="false" />
+            <element signature="e#2805#2848#0" expanded="false" />
+            <element signature="e#2996#3038#0" expanded="false" />
+            <element signature="docComment;method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="e#3687#3722#0" expanded="false" />
+            <element signature="method#longx#0;class#Main#0" expanded="false" />
+            <element signature="e#4482#4502#0" expanded="false" />
+            <element signature="e#4583#4601#0" expanded="false" />
+            <element signature="method#rosebud#0;class#Main#0" expanded="false" />
+            <element signature="e#5124#5153#0" expanded="false" />
+            <element signature="method#sevenUp#0;class#Main#0" expanded="false" />
+            <element signature="e#5607#5680#0" expanded="false" />
+            <element signature="e#5917#5939#0" expanded="false" />
+            <element signature="method#headerliner#0;class#Main#0" expanded="false" />
+            <element signature="e#6578#6634#0" expanded="false" />
+            <element signature="e#7159#7167#0" expanded="false" />
+            <element signature="method#maxBlock#0;class#Main#0" expanded="false" />
+            <element signature="method#weave#0;class#Main#0" expanded="false" />
+            <element signature="e#8012#8059#0" expanded="false" />
+            <element signature="method#desirable#0;class#Main#0" expanded="false" />
+            <element signature="e#8771#8817#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1065,18 +1177,33 @@
         <state relative-caret-position="405">
           <caret line="48" column="13" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
           <folding>
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-            <element signature="e#220#274#0" expanded="false" />
-            <element signature="method#getSecondHighest#0;class#Main#0" expanded="false" />
-            <element signature="e#639#687#0" expanded="false" />
-            <element signature="method#isPalindrome#0;class#Main#0" expanded="false" />
+            <element signature="e#760#808#0" expanded="false" />
             <element signature="method#balanced#0;class#Main#0" expanded="false" />
             <element signature="docComment;method#divisibles#0;class#Main#0" expanded="false" />
             <element signature="method#divisibles#0;class#Main#0" expanded="false" />
-            <element signature="e#1970#2014#0" expanded="false" />
-            <element signature="e#2181#2230#0" expanded="false" />
-            <element signature="e#2491#2534#0" expanded="false" />
-            <element signature="e#2682#2724#0" expanded="false" />
+            <element signature="e#2284#2328#0" expanded="false" />
+            <element signature="e#2495#2544#0" expanded="false" />
+            <element signature="e#2805#2848#0" expanded="false" />
+            <element signature="e#2996#3038#0" expanded="false" />
+            <element signature="docComment;method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="e#3687#3722#0" expanded="false" />
+            <element signature="method#longx#0;class#Main#0" expanded="false" />
+            <element signature="e#4482#4502#0" expanded="false" />
+            <element signature="e#4583#4601#0" expanded="false" />
+            <element signature="method#rosebud#0;class#Main#0" expanded="false" />
+            <element signature="e#5124#5153#0" expanded="false" />
+            <element signature="method#sevenUp#0;class#Main#0" expanded="false" />
+            <element signature="e#5607#5680#0" expanded="false" />
+            <element signature="e#5917#5939#0" expanded="false" />
+            <element signature="method#headerliner#0;class#Main#0" expanded="false" />
+            <element signature="e#6578#6634#0" expanded="false" />
+            <element signature="e#7159#7167#0" expanded="false" />
+            <element signature="method#maxBlock#0;class#Main#0" expanded="false" />
+            <element signature="method#weave#0;class#Main#0" expanded="false" />
+            <element signature="e#8012#8059#0" expanded="false" />
+            <element signature="method#desirable#0;class#Main#0" expanded="false" />
+            <element signature="e#8771#8817#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1094,18 +1221,33 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-            <element signature="e#220#274#0" expanded="false" />
-            <element signature="method#getSecondHighest#0;class#Main#0" expanded="false" />
-            <element signature="e#639#687#0" expanded="false" />
-            <element signature="method#isPalindrome#0;class#Main#0" expanded="false" />
+            <element signature="e#760#808#0" expanded="false" />
             <element signature="method#balanced#0;class#Main#0" expanded="false" />
             <element signature="docComment;method#divisibles#0;class#Main#0" expanded="false" />
             <element signature="method#divisibles#0;class#Main#0" expanded="false" />
-            <element signature="e#1970#2014#0" expanded="false" />
-            <element signature="e#2181#2230#0" expanded="false" />
-            <element signature="e#2491#2534#0" expanded="false" />
-            <element signature="e#2682#2724#0" expanded="false" />
+            <element signature="e#2284#2328#0" expanded="false" />
+            <element signature="e#2495#2544#0" expanded="false" />
+            <element signature="e#2805#2848#0" expanded="false" />
+            <element signature="e#2996#3038#0" expanded="false" />
+            <element signature="docComment;method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="e#3687#3722#0" expanded="false" />
+            <element signature="method#longx#0;class#Main#0" expanded="false" />
+            <element signature="e#4482#4502#0" expanded="false" />
+            <element signature="e#4583#4601#0" expanded="false" />
+            <element signature="method#rosebud#0;class#Main#0" expanded="false" />
+            <element signature="e#5124#5153#0" expanded="false" />
+            <element signature="method#sevenUp#0;class#Main#0" expanded="false" />
+            <element signature="e#5607#5680#0" expanded="false" />
+            <element signature="e#5917#5939#0" expanded="false" />
+            <element signature="method#headerliner#0;class#Main#0" expanded="false" />
+            <element signature="e#6578#6634#0" expanded="false" />
+            <element signature="e#7159#7167#0" expanded="false" />
+            <element signature="method#maxBlock#0;class#Main#0" expanded="false" />
+            <element signature="method#weave#0;class#Main#0" expanded="false" />
+            <element signature="e#8012#8059#0" expanded="false" />
+            <element signature="method#desirable#0;class#Main#0" expanded="false" />
+            <element signature="e#8771#8817#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1115,33 +1257,33 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-            <element signature="e#220#274#0" expanded="false" />
-            <element signature="method#getSecondHighest#0;class#Main#0" expanded="false" />
-            <element signature="e#639#687#0" expanded="false" />
-            <element signature="method#isPalindrome#0;class#Main#0" expanded="false" />
+            <element signature="e#760#808#0" expanded="false" />
             <element signature="method#balanced#0;class#Main#0" expanded="false" />
             <element signature="docComment;method#divisibles#0;class#Main#0" expanded="false" />
             <element signature="method#divisibles#0;class#Main#0" expanded="false" />
-            <element signature="e#1970#2014#0" expanded="false" />
-            <element signature="e#2181#2230#0" expanded="false" />
-            <element signature="e#2491#2534#0" expanded="false" />
-            <element signature="e#2682#2724#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/theironyard/charlotte/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="e#175#176#0" expanded="false" />
-            <element signature="e#207#208#0" expanded="false" />
-            <element signature="e#238#239#0" expanded="false" />
-            <element signature="e#265#266#0" expanded="false" />
-            <element signature="e#305#306#0" expanded="false" />
-            <element signature="e#337#338#0" expanded="false" />
+            <element signature="e#2284#2328#0" expanded="false" />
+            <element signature="e#2495#2544#0" expanded="false" />
+            <element signature="e#2805#2848#0" expanded="false" />
+            <element signature="e#2996#3038#0" expanded="false" />
+            <element signature="docComment;method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="e#3687#3722#0" expanded="false" />
+            <element signature="method#longx#0;class#Main#0" expanded="false" />
+            <element signature="e#4482#4502#0" expanded="false" />
+            <element signature="e#4583#4601#0" expanded="false" />
+            <element signature="method#rosebud#0;class#Main#0" expanded="false" />
+            <element signature="e#5124#5153#0" expanded="false" />
+            <element signature="method#sevenUp#0;class#Main#0" expanded="false" />
+            <element signature="e#5607#5680#0" expanded="false" />
+            <element signature="e#5917#5939#0" expanded="false" />
+            <element signature="method#headerliner#0;class#Main#0" expanded="false" />
+            <element signature="e#6578#6634#0" expanded="false" />
+            <element signature="e#7159#7167#0" expanded="false" />
+            <element signature="method#maxBlock#0;class#Main#0" expanded="false" />
+            <element signature="method#weave#0;class#Main#0" expanded="false" />
+            <element signature="e#8012#8059#0" expanded="false" />
+            <element signature="method#desirable#0;class#Main#0" expanded="false" />
+            <element signature="e#8771#8817#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1184,29 +1326,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/theironyard/charlotte/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
+        <state relative-caret-position="268">
           <caret line="72" column="32" lean-forward="false" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="110" column="17" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="75" column="19" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/theironyard/charlotte/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/theironyard/charlotte/Sonny.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/theironyard/charlotte/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
-          <caret line="300" column="17" lean-forward="false" selection-start-line="300" selection-start-column="17" selection-end-line="300" selection-end-column="17" />
+        <state relative-caret-position="25">
+          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
           <folding>
-            <element signature="method#main#0;class#Main#0" expanded="false" />
-            <element signature="e#220#274#0" expanded="false" />
-            <element signature="method#getSecondHighest#0;class#Main#0" expanded="false" />
-            <element signature="e#639#687#0" expanded="false" />
-            <element signature="method#isPalindrome#0;class#Main#0" expanded="false" />
+            <element signature="e#760#808#0" expanded="false" />
             <element signature="method#balanced#0;class#Main#0" expanded="false" />
             <element signature="docComment;method#divisibles#0;class#Main#0" expanded="false" />
             <element signature="method#divisibles#0;class#Main#0" expanded="false" />
-            <element signature="e#1970#2014#0" expanded="false" />
-            <element signature="e#2181#2230#0" expanded="false" />
-            <element signature="e#2491#2534#0" expanded="false" />
-            <element signature="e#2682#2724#0" expanded="false" />
+            <element signature="e#2284#2328#0" expanded="false" />
+            <element signature="e#2495#2544#0" expanded="false" />
+            <element signature="e#2805#2848#0" expanded="false" />
+            <element signature="e#2996#3038#0" expanded="false" />
+            <element signature="docComment;method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="method#divisiblesStreams#0;class#Main#0" expanded="false" />
+            <element signature="e#3687#3722#0" expanded="false" />
+            <element signature="method#longx#0;class#Main#0" expanded="false" />
+            <element signature="e#4482#4502#0" expanded="false" />
+            <element signature="e#4583#4601#0" expanded="false" />
+            <element signature="method#rosebud#0;class#Main#0" expanded="false" />
+            <element signature="e#5124#5153#0" expanded="false" />
+            <element signature="method#sevenUp#0;class#Main#0" expanded="false" />
+            <element signature="e#5607#5680#0" expanded="false" />
+            <element signature="e#5917#5939#0" expanded="false" />
+            <element signature="method#headerliner#0;class#Main#0" expanded="false" />
+            <element signature="e#6578#6634#0" expanded="false" />
+            <element signature="e#7159#7167#0" expanded="false" />
+            <element signature="method#maxBlock#0;class#Main#0" expanded="false" />
+            <element signature="method#weave#0;class#Main#0" expanded="false" />
+            <element signature="e#8012#8059#0" expanded="false" />
+            <element signature="method#desirable#0;class#Main#0" expanded="false" />
+            <element signature="e#8771#8817#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/theironyard/charlotte/Robot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
           </folding>
         </state>
       </provider>
